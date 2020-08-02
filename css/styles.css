@@ -665,6 +665,8 @@
     padding-right: 22px;
     padding-top: 6px;
     cursor: pointer;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
     
     .portfolio-filter-list-button:hover,
@@ -692,6 +694,9 @@
         border: 1px solid #EEEEEE;
         box-sizing: border-box;
         overflow: hidden;
+        box-shadow: none;
+
+        transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
     }
     
